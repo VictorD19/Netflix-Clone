@@ -1,0 +1,54 @@
+.list--row-container  {
+    margin-bottom: 15px;
+}
+.list--row-container h2 {
+    margin: 0 0 0 30px;
+}
+.list--row--main{
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+.list--row-list{
+    transition: all ease 0.5s;
+    display: flex;  
+}
+.list--row--item{
+    transform: scale(1);
+    width:150px;
+    cursor: pointer;
+}
+.list--row--item img{
+    transform: scale(0.9);
+    width: 100%;
+    transition: all ease 0.2s;
+    border-radius: 10px;
+}
+.list--row--item img:hover{
+    transform: scale(1)
+}
+.list--after,.list--before{
+    width: 40px;
+    height: 225px;
+    position: absolute;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+.list--after{
+    right: 0;
+
+}
+.list--before{
+    left: 0;
+}
+
+.list--row-container:hover .list--after,
+.list--row-container:hover .list--before{
+    opacity: 1;
+}

@@ -1,0 +1,68 @@
+.feature--movie{
+    height: 100vh;
+}
+.feature--bg-vertical{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 5%, transparent 95%);
+}
+.feature--bg-horizontal{
+    width: inherit;
+    height: inherit;
+    /* background: linear-gradient(to right, #111 25%, transparent 70%); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 150px;
+    padding-top: 60px;
+}
+.feature--title{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.feature--description{
+    width: 40%;
+    font-size: 18px;
+    margin-bottom: 15px;
+    
+}
+.feature--buttons{
+    padding: 11px 25px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+.btn-play{
+    color: #111;
+    background: #fff; 
+    margin-right: 10px;
+    opacity: 1;
+}
+.btn-inf{
+    color: #fff;
+    background: gray;
+    opacity: 1;
+
+}
+.btn-inf:hover,.btn-play:hover{
+    opacity: 0.8;
+
+}
+.feature--btn-main{
+    margin-top: 15px;
+}
+.feature--info{
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.featured-points{
+    color: #04d304;
+}
+.featured-points,.featured-year,.featured-season{
+    margin-right: 10px;
+}

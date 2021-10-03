@@ -1,0 +1,32 @@
+.footer-content{
+    width: 100%;
+}
+.redes-sociais{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.redes-sociais a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    padding: 0 10px;
+}
+.creditos-tmdb{
+    
+    height:30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 20px;
+}
+.creditos-tmdb img{
+   height: 100%;
+   margin-right: 10px;
+}
+.description-geral{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
