@@ -30,3 +30,19 @@
     font-size: 16px;
     margin-bottom: 20px;
 }
+@media screen and (max-width: 740px) {
+    .creditos-tmdb{
+    
+        margin: 15px 10px;
+        height:30px;
+      padding-left: 20px;
+        font-size: 15px;
+    }
+    .description-geral{
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        margin: 0 10px 20px;
+    }
+  } 

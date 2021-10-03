@@ -92,3 +92,14 @@ header{
    font-size: 19px;
    
 }
+@media screen and (max-width: 740px) {
+
+.navbar-item,.navbar-notification,.navbar-search i{
+    display: none;
+}
+.navbar-part-left a{
+    width: 110px;
+}
+
+
+}

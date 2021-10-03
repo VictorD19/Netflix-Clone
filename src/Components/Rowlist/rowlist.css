@@ -52,3 +52,9 @@
 .list--row-container:hover .list--before{
     opacity: 1;
 }
+@media screen and (max-width: 740px) {
+    .list--after,.list--before{
+        opacity: 1;
+    }
+    
+  } 
